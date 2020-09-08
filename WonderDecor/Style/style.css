@@ -1,0 +1,263 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+html{font-family: 'lora',serif;}
+body{
+		   
+}
+
+h1{
+	font-family: 'lora',serif;
+	
+}
+
+
+nav{
+padding: 0.4rem 0;
+width: 100%;
+  background-image: linear-gradient(to  top , #4B4453,#DBEEF7,#3188A5);
+border-bottom:0.2rem solid #660044;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    align-self: center;
+	
+	
+}
+
+nav li{
+     border-radius: 10%;
+     border: 0.05rem solid #544524;;
+     padding: 0.3rem;
+     font-size: 0.8rem;
+     font-weight: bolder;
+     font-family: "Apple Chancery",cursive;
+     color: #544524;
+     transition: transform 0.4s ease-out ;
+     
+}
+nav li:hover{
+	color: gray;
+	cursor: pointer;
+	transform:scale(1.1);
+	background: #3188A5;
+	
+	
+}
+
+nav a{
+	text-decoration: none;	
+	}
+
+.containerMain{
+    box-sizing: border-box;
+}
+
+.containerHeader{
+	
+	display: flex;
+	padding: 1px;
+	width: 100%;
+	height: 5%;
+	background-image: linear-gradient(to right bottom, #4B4453,#DBEEF7,#3188A5);
+	
+	box-sizing: border-box;
+}
+
+.col-mainLogo{
+	position: relative;
+	left: 0px;
+	border-radius: 50%;
+	width:20%;
+	min-width: 20%;
+	margin: 0.29rem;
+}
+
+.col-mainLogo img{
+   	border-radius: 50%;	
+	width: 100%;	
+	object-fit: fill;
+	transition: transform 1s ease-in-out;		
+}
+
+.col-mainLogo img:hover{
+	cursor: pointer;
+	transform: rotate(360deg);
+}
+
+.col-welcomeBanner{
+	display: inline-block;
+	box-sizing: border-box;
+	
+	width: 65%;
+	
+	}
+
+#tag h1{
+	position: relative;
+	text-align: center;
+	font-family:  Georgia, serif;
+	text-transform: uppercase;
+	color: #4B4453;
+	font-size: 5rem;
+	letter-spacing: 0.13rem;
+    word-spacing: 0.5rem;
+	font-weight: bolder;
+	max-width: 100%;
+	margin-top: 1rem;
+	margin-left: 0rem;
+	
+}
+
+#dcode h4{
+	font-family: 'lora',serif;
+	color: #4B4453;
+	max-width: 100%;
+	font-size: 1rem;
+	font-weight: bolder;
+	letter-spacing: 0.15rem;
+    word-spacing: 0.3rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0rem;
+    text-align: right;
+    padding: 0.1rem 1rem;
+
+	
+}
+
+.col-contact1{
+	width: 15%;
+
+	min-width: 15%;
+	display: flex;
+	justify-content: flex-end;
+	}
+
+.col-contact1 img{
+	height: 20%;
+	width: 20%;
+	margin-left: 1rem;
+	bottom: 0;
+    border-radius: 50%;
+    justify-content: flex-start;
+    align-content: flex-end;
+    object-fit: cover;
+}
+
+
+.containerBody{
+ 	position: absolute;
+ 	display: flex;
+ 	width:100%;
+ 	 background-image: linear-gradient(to left top , #4B4453,#DBEEF7,#3188A5);
+ }
+
+.col-SideBar{
+ 	width: 5%;
+ 	border-right: 2px solid #5E4122;	
+ }
+
+ .col-MainDraw{
+ 	width: 75%;
+ }
+
+ .col-RightBar{
+ 	width: 20%;
+ 	min-width: 20%;
+ 	box-sizing: border-box;
+ 	padding: 1rem;
+    
+ 	border-left: 2px solid #5E4122;
+ 	
+ }
+
+ .col-RightBar h2{
+ 	font-size: 2rem;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	letter-spacing: 0.13rem;
+ 	color: #5E4122;
+    font-family: Quicksand; 
+    font-style: italic; 
+    font-variant: small-caps;
+ }
+ .article1{
+ 	padding: 1rem 1rem;
+ 	margin-top: 1rem;
+ 	border: 1px solid #29BBD7;
+ 	border-radius: 10%;
+ 	background-color: #3188A5;
+ }
+
+ .productsDraw{
+ 	
+ 	padding: 2px;
+
+ }
+ .product{
+ 	display: flex;
+ 	margin: 4rem 2rem;
+    padding: 2rem 2rem;
+ 	justify-content: space-around;
+ 	 background-image: linear-gradient(to left top , #4B4453,#DBEEF7,#3188A5);
+ }
+
+ .draw{
+ 	position: relative;
+ 	
+ 	margin-left: 5%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	width: 45%;
+ 	height: 100%;
+ }
+
+ .product label{
+      font-weight: bold;
+      font-size: 1rem;
+ }
+
+ .product img{
+ 	width: 100%;
+ 	border: 1px solid #3188A5 ;
+ 	border-radius: 10%;
+ }
+
+  .product img:hover{
+ 	transform: scale(1.05);
+ 	border:  3px solid #3188A5 ;
+    transition: transform 500 ease-in-out;
+ }
+ .pOdd{
+ 	flex-direction: row;
+ }
+ .pEven{
+     	flex-direction: row-reverse;
+
+ }
+ .description{
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 45%;
+ 	border-left: 1px solid #3188A5;
+ 	border-right:1px solid #3188A5;
+ 	margin-left: 2rem;
+ 	margin-right: 2rem;
+ }
+
+ @media screen and (max-width:1065px){
+
+	*{
+		font-size: 12px;
+	}
+}
+
+ 
+

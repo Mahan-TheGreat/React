@@ -1,0 +1,50 @@
+*{
+margin: 0px;
+
+}
+
+#board{
+	
+	width: 376px;
+	height: 376px;
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	border: 30px solid black;
+	display: grid;
+	grid-template-columns: 125px 125px 125px;
+	grid-template-rows: 125px 125px 125px;
+	visibility: hidden;
+	
+	
+
+
+	
+
+}
+.check{
+
+    border: 3px solid black;
+    width:124px;
+    height:124px;
+    color: black;
+    font-weight: bold;
+    font-size: 80px;
+    
+    
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#check:hover{
+	background-color: grey;
+}
+
+footer{
+	position: absolute;
+	top: 650px;
+	left: 500px;
+	
+}
+
